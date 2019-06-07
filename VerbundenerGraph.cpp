@@ -2,9 +2,9 @@
 // Created by Enthöfer Joshua on 2019-06-07.
 //
 
-#include "VerbunderGraph.h"
+#include "VerbundenerGraph.h"
 
-VerbunderGraph::VerbunderGraph(int laenge) {
+VerbundenerGraph::VerbundenerGraph(int laenge) {
 
     this->laenge_ = laenge;
 

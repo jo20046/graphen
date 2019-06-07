@@ -5,7 +5,7 @@
 #include "Inzidenzmatrix.h"
 #include "Converter.h"
 #include "VollstaendigerGraph.h"
-#include "VerbunderGraph.h"
+#include "VerbundenerGraph.h"
 
 int main() {
 
@@ -19,7 +19,7 @@ int main() {
     graph.add_kante(0, 2);
     graph.add_kante(1, 2);
 
-    VerbunderGraph verbunderGraph{5};
+    VerbundenerGraph verbunderGraph{5};
     Kantentabelle k{&verbunderGraph};
     k.to_graphviz();
 
