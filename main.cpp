@@ -17,18 +17,19 @@ int main() {
     graph.add_kante(1, 2);
     graph.add_kante(1, 4);
     graph.add_kante(3, 4);
+    graph.add_kante(4, 4);
 
     Adjazenzmatrix adjazenzmatrix{graph};
     adjazenzmatrix.print();
     adjazenzmatrix.to_graphviz();
 
-    Inzidenzmatrix inzidenzmatrix{graph};
-    inzidenzmatrix.print();
-    inzidenzmatrix.to_graphviz();
-
-    Kantentabelle kantentabelle{graph};
-    kantentabelle.print();
-    kantentabelle.to_graphviz();
+//    Inzidenzmatrix inzidenzmatrix{graph};
+//    inzidenzmatrix.print();
+//    inzidenzmatrix.to_graphviz();
+//
+//    Kantentabelle kantentabelle{graph};
+//    kantentabelle.print();
+//    kantentabelle.to_graphviz();
 
 
 

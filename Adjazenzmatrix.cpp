@@ -46,8 +46,8 @@ void Adjazenzmatrix::to_graphviz() {
         out << "  v" << i << std::endl;
     }
     for (int i = 0; i < matrix_.size(); i++) {
-        for (int j = 0; j < matrix_.at(i).size(); j++) {
-            if (matrix_.at(i).at(j) == 1 && j >= i) {
+        for (int j = i; j < matrix_.at(i).size(); j++) {
+            if (matrix_.at(i).at(j) == 1) {
                 out << "  v" << i << " -- v" << j << std::endl;
             }
         }
