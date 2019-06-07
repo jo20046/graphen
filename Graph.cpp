@@ -59,3 +59,15 @@ std::vector<int> Graph::get_kante(int index) {
 bool Graph::kante_enthaelt_knoten(int kante, int knoten) {
     return kanten_.at(kante).at(0) == knoten || kanten_.at(kante).at(1) == knoten;
 }
+
+//Graph Graph::erstelle_vollstaengiger_graph(int groesse) {
+//    Graph ergebnis;
+//    for (int i = 0; i < groesse; i++) {
+//        ergebnis.add_knoten(i);
+//    }
+//    for (int i = 0; i < groesse; i++) {
+//        for (int j = i + 1; j < groesse; j++) {
+//            ergebnis.add_kante(i, j);
+//        }
+//    }
+//}

@@ -4,6 +4,7 @@
 #include "Kantentabelle.h"
 #include "Inzidenzmatrix.h"
 #include "Converter.h"
+#include "VollstaendigerGraph.h"
 
 int main() {
 
@@ -24,14 +25,20 @@ int main() {
     graph.add_kante(2, 6);
     graph.add_kante(3, 4);
     graph.add_kante(4, 6);
+//
+//    Adjazenzmatrix adjazenzmatrix{graph};
+//    Inzidenzmatrix inzidenzmatrix = Converter::adjazenzmatrix_to_inzidenzmatrix(adjazenzmatrix);
+//    Kantentabelle kantentabelle = Converter::adjazenzmatrix_to_kantentabelle(adjazenzmatrix);
+//    adjazenzmatrix.to_graphviz();
+//    inzidenzmatrix.to_graphviz();
+//    kantentabelle.to_graphviz();
 
-    Adjazenzmatrix adjazenzmatrix{graph};
-    Inzidenzmatrix inzidenzmatrix = Converter::adjazenzmatrix_to_inzidenzmatrix(adjazenzmatrix);
-    Kantentabelle kantentabelle = Converter::adjazenzmatrix_to_kantentabelle(adjazenzmatrix);
-    adjazenzmatrix.to_graphviz();
-    inzidenzmatrix.to_graphviz();
-    kantentabelle.to_graphviz();
-
+    VollstaendigerGraph vollstaendigerGraph{5};
+    Adjazenzmatrix a{&vollstaendigerGraph};
+    Inzidenzmatrix i{&vollstaendigerGraph};
+    Kantentabelle k = Converter::adjazenzmatrix_to_kantentabelle(a);
+    k.print();
+    k.to_graphviz();
 
 
     return 0;

@@ -11,7 +11,7 @@
 class Kantentabelle {
 
 public:
-    explicit Kantentabelle(Graph graph);
+    explicit Kantentabelle(Graph *graph);
 
     void to_graphviz();
 
