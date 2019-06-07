@@ -148,18 +148,31 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VollstaendigerGraph.cpp" -o CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.s
 
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/flags.make
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o: ../VerbunderGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o -c "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.cpp"
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/flags.make
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o: ../VerbundenerGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o -c "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.cpp"
 
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.cpp" > CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.i
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.cpp" > CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.i
 
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.cpp" -o CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.s
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.cpp" -o CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.s
+
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/flags.make
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o: ../Komponentengraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o -c "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Komponentengraph.cpp"
+
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Komponentengraph.cpp" > CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.i
+
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Komponentengraph.cpp" -o CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.s
 
 # Object files for target adjazenz_inzidenz_kantentabelle
 adjazenz_inzidenz_kantentabelle_OBJECTS = \
@@ -170,7 +183,8 @@ adjazenz_inzidenz_kantentabelle_OBJECTS = \
 "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o" \
 "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o" \
 "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o" \
-"CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o"
+"CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o" \
+"CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o"
 
 # External object files for target adjazenz_inzidenz_kantentabelle
 adjazenz_inzidenz_kantentabelle_EXTERNAL_OBJECTS =
@@ -182,10 +196,11 @@ adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/
 adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o
 adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o
 adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o
-adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o
+adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o
+adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o
 adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make
 adjazenz_inzidenz_kantentabelle: CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable adjazenz_inzidenz_kantentabelle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable adjazenz_inzidenz_kantentabelle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

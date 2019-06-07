@@ -23,9 +23,13 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Kantentabelle.cpp
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Kantentabelle.h
 
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o: ../Graph.h
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o: ../VerbunderGraph.cpp
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o: ../VerbunderGraph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o: ../Graph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o: ../Komponentengraph.cpp
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o: ../Komponentengraph.h
+
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o: ../Graph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o: ../VerbundenerGraph.cpp
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o: ../VerbundenerGraph.h
 
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o: ../Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o: ../VollstaendigerGraph.cpp
@@ -36,7 +40,8 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Converter.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Inzidenzmatrix.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Kantentabelle.h
-CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../VerbunderGraph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Komponentengraph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../VerbundenerGraph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../VollstaendigerGraph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../main.cpp
 
