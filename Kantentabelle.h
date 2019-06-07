@@ -11,13 +11,16 @@
 class Kantentabelle {
 
 public:
-    explicit Kantentabelle (Graph graph);
+    explicit Kantentabelle(Graph graph);
 
     void to_graphviz();
 
     void print();
 
+    Graph get_graph();
+
 private:
+    Graph graph_;
     std::vector<std::vector<int>> tabelle_;
 };
 

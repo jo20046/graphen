@@ -15,10 +15,14 @@ public:
     explicit Adjazenzmatrix(Graph graph);
 
     void print();
+
     void to_graphviz();
+
+    Graph get_graph();
 
 
 private:
+    Graph graph_;
     std::vector<std::vector<int>> matrix_;
 
 };

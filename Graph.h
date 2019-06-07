@@ -12,13 +12,19 @@ class Graph {
 
 public:
     void add_knoten(int neuer_knoten);
+
     void add_kante(int von, int nach);
 
     int get_knoten(int index);
+
     std::vector<int> get_kante(int index);
+
     int get_anzahl_knoten();
+
     int get_anzahl_kanten();
+
     bool hat_verbindung(int start, int ziel);
+
     bool kante_enthaelt_knoten(int kante, int knoten);
 
 private:

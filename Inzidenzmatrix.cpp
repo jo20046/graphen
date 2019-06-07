@@ -7,6 +7,9 @@
 #include "Inzidenzmatrix.h"
 
 Inzidenzmatrix::Inzidenzmatrix(Graph graph) {
+
+    this->graph_ = graph;
+
     for (int i = 0; i < graph.get_anzahl_knoten(); i++) {
         std::vector<int> neue_zeile;
         neue_zeile.reserve(graph.get_anzahl_knoten());
@@ -67,4 +70,8 @@ void Inzidenzmatrix::to_graphviz() {
 
 int Inzidenzmatrix::breite_() {
     return matrix_.empty() ? 0 : matrix_.at(0).size();
+}
+
+Graph Inzidenzmatrix::get_graph() {
+    return this->graph_;
 }

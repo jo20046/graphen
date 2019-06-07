@@ -8,6 +8,8 @@
 
 Adjazenzmatrix::Adjazenzmatrix(Graph graph) {
 
+    this->graph_ = graph;
+
     for (int i = 0; i < graph.get_anzahl_knoten(); i++) {
         std::vector<int> neue_zeile;
         neue_zeile.reserve(graph.get_anzahl_knoten());
@@ -54,4 +56,8 @@ void Adjazenzmatrix::to_graphviz() {
     }
     out << '}';
     out.close();
+}
+
+Graph Adjazenzmatrix::get_graph() {
+    return this->graph_;
 }

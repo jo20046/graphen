@@ -150,6 +150,33 @@ Adjazenzmatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.s
 .PHONY : Adjazenzmatrix.cpp.s
 
+Converter.o: Converter.cpp.o
+
+.PHONY : Converter.o
+
+# target to build an object file
+Converter.cpp.o:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o
+.PHONY : Converter.cpp.o
+
+Converter.i: Converter.cpp.i
+
+.PHONY : Converter.i
+
+# target to preprocess a source file
+Converter.cpp.i:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.i
+.PHONY : Converter.cpp.i
+
+Converter.s: Converter.cpp.s
+
+.PHONY : Converter.s
+
+# target to generate assembly for a file
+Converter.cpp.s:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.s
+.PHONY : Converter.cpp.s
+
 Graph.o: Graph.cpp.o
 
 .PHONY : Graph.o
@@ -270,6 +297,9 @@ help:
 	@echo "... Adjazenzmatrix.o"
 	@echo "... Adjazenzmatrix.i"
 	@echo "... Adjazenzmatrix.s"
+	@echo "... Converter.o"
+	@echo "... Converter.i"
+	@echo "... Converter.s"
 	@echo "... Graph.o"
 	@echo "... Graph.i"
 	@echo "... Graph.s"

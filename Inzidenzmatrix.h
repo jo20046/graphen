@@ -17,8 +17,12 @@ public:
 
     void to_graphviz();
 
+    Graph get_graph();
+
 private:
     int breite_();
+
+    Graph graph_;
     std::vector<std::vector<int>> matrix_;
 
 };

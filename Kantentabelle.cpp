@@ -7,6 +7,9 @@
 #include "Kantentabelle.h"
 
 Kantentabelle::Kantentabelle(Graph graph) {
+
+    this->graph_ = graph;
+
     for (int i = 0; i < graph.get_anzahl_kanten(); i++) {
         std::vector<int> neuer_eintrag = {i};
         std::vector<int> verbindung = graph.get_kante(i);
@@ -20,7 +23,7 @@ void Kantentabelle::to_graphviz() {
     std::ofstream out;
     out.open("aus_kantentabelle.gv");
     out << "graph {" << std::endl;
-    for(int i = 0; i < tabelle_.size(); i++) {
+    for (int i = 0; i < tabelle_.size(); i++) {
         out << "  v" << tabelle_.at(i).at(1) << " -- v" << tabelle_.at(i).at(2) << std::endl;
     }
     out << '}';
@@ -31,4 +34,8 @@ void Kantentabelle::print() {
     for (int i = 0; i < tabelle_.size(); i++) {
         std::cout << tabelle_.at(i).at(0) << ' ' << tabelle_.at(i).at(1) << ' ' << tabelle_.at(i).at(2) << std::endl;
     }
+}
+
+Graph Kantentabelle::get_graph() {
+    return this->graph_;
 }
