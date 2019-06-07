@@ -54,7 +54,7 @@ void Adjazenzmatrix::to_graphviz() {
             }
         }
     }
-    out << '}';
+    out << '}' << std::endl;
     out.close();
 }
 

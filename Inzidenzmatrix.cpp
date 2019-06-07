@@ -64,7 +64,7 @@ void Inzidenzmatrix::to_graphviz() {
         }
         out << "  v" << start << " -- v" << ende << std::endl;
     }
-    out << '}';
+    out << '}' << std::endl;
     out.close();
 }
 

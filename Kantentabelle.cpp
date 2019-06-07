@@ -26,7 +26,7 @@ void Kantentabelle::to_graphviz() {
     for (int i = 0; i < tabelle_.size(); i++) {
         out << "  v" << tabelle_.at(i).at(1) << " -- v" << tabelle_.at(i).at(2) << std::endl;
     }
-    out << '}';
+    out << '}' << std::endl;
     out.close();
 }
 
