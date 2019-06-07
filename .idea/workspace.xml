@@ -12,38 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3449bb66-8289-4d17-9bf8-7f2ee8736a27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VollstaendigerGraph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VollstaendigerGraph.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adjazenzmatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Adjazenzmatrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adjazenzmatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Adjazenzmatrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Converter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Converter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inzidenzmatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Inzidenzmatrix.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inzidenzmatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/Inzidenzmatrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kantentabelle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Kantentabelle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kantentabelle.h" beforeDir="false" afterPath="$PROJECT_DIR$/Kantentabelle.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Inzidenzmatrix.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Inzidenzmatrix.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/adjazenz_inzidenz_kantentabelle" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/adjazenz_inzidenz_kantentabelle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/adjazenz_inzidenz_kantentabelle.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/adjazenz_inzidenz_kantentabelle.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/aus_adjazenz.gv" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aus_adjazenz.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/aus_adjazenz-dot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aus_adjazenz-dot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/aus_kantentabelle-dot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aus_kantentabelle-dot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/aus_kantentabelle.gv" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aus_kantentabelle.gv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -59,11 +33,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -83,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="64" column="6" lean-forward="true" selection-start-line="64" selection-start-column="6" selection-end-line="71" selection-end-column="7" />
+            <state relative-caret-position="639">
+              <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -93,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/Adjazenzmatrix.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="e#52#71#0" expanded="true" />
               </folding>
@@ -105,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/Inzidenzmatrix.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="e#52#71#0" expanded="true" />
               </folding>
@@ -113,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="450">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -126,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/Kantentabelle.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="e#52#70#0" expanded="true" />
               </folding>
@@ -188,8 +162,6 @@
       <list>
         <option value="$PROJECT_DIR$/cmake-build-debug/aus_adjazenz.gv" />
         <option value="$PROJECT_DIR$/Converter.h" />
-        <option value="$PROJECT_DIR$/Graph.cpp" />
-        <option value="$PROJECT_DIR$/Graph.h" />
         <option value="$PROJECT_DIR$/VollstaendigerGraph.h" />
         <option value="$PROJECT_DIR$/VollstaendigerGraph.cpp" />
         <option value="$PROJECT_DIR$/Adjazenzmatrix.h" />
@@ -200,13 +172,15 @@
         <option value="$PROJECT_DIR$/Inzidenzmatrix.cpp" />
         <option value="$PROJECT_DIR$/Converter.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Graph.cpp" />
+        <option value="$PROJECT_DIR$/Graph.h" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2535" />
-    <option name="y" value="-156" />
-    <option name="width" value="2020" />
+    <option name="x" value="2849" />
+    <option name="y" value="-203" />
+    <option name="width" value="1793" />
     <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -272,7 +246,7 @@
       <updated>1559808493608</updated>
       <workItem from="1559808497094" duration="5065000" />
       <workItem from="1559884531018" duration="6840000" />
-      <workItem from="1559895251751" duration="9248000" />
+      <workItem from="1559895251751" duration="10301000" />
     </task>
     <task id="LOCAL-00001" summary="Effizienterer Algorithmus bei to_graphviz()">
       <created>1559899318010</created>
@@ -309,16 +283,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559904023555</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Zeiger auf Graph in Konstruktoren; VollstaendigerGraph">
+      <created>1559909536251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559909536251</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21153000" />
+    <option name="totallyTimeSpent" value="22206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2535" y="-156" width="2020" height="952" extended-state="0" />
+    <frame x="2849" y="-203" width="1793" height="952" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15975733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1804683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,7 +312,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4993895" weight="0.57790697" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32906976" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32906976" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50183153" side_tool="true" weight="0.32906976" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -352,7 +334,8 @@
     <MESSAGE value="Newline am Ende der Graphviz-Dateien" />
     <MESSAGE value="- statische Konvertierungsfunktionen für alle Matrizen- und Tabellentypen" />
     <MESSAGE value="- Aufgabe 8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Aufgabe 8.2" />
+    <MESSAGE value="Zeiger auf Graph in Konstruktoren; VollstaendigerGraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zeiger auf Graph in Konstruktoren; VollstaendigerGraph" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -421,20 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="64" column="6" lean-forward="true" selection-start-line="64" selection-start-column="6" selection-end-line="71" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VollstaendigerGraph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -452,7 +421,7 @@
     <entry file="file://$PROJECT_DIR$/Adjazenzmatrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="e#52#71#0" expanded="true" />
           </folding>
@@ -486,7 +455,7 @@
     <entry file="file://$PROJECT_DIR$/Kantentabelle.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="e#52#70#0" expanded="true" />
           </folding>
@@ -496,7 +465,7 @@
     <entry file="file://$PROJECT_DIR$/Inzidenzmatrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="e#52#71#0" expanded="true" />
           </folding>
@@ -512,11 +481,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>

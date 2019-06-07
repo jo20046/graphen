@@ -28,6 +28,8 @@ public:
 
     bool kante_enthaelt_knoten(int kante, int knoten);
 
+    bool is_vollstaendig();
+
 private:
     std::vector<int> knoten_;
     std::vector<std::vector<int>> kanten_;
