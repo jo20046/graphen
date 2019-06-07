@@ -5,6 +5,13 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o: ../Adjazenz
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o: ../Adjazenzmatrix.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o: ../Graph.h
 
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Adjazenzmatrix.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Converter.cpp
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Converter.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Graph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Inzidenzmatrix.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Kantentabelle.h
+
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o: ../Graph.cpp
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o: ../Graph.h
 
@@ -17,6 +24,7 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Kantentab
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Kantentabelle.h
 
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Adjazenzmatrix.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Converter.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Inzidenzmatrix.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Kantentabelle.h

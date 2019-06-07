@@ -5,6 +5,13 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.cpp
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.cpp
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.h
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Inzidenzmatrix.h
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Kantentabelle.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.cpp
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
@@ -18,6 +25,7 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Kantentabelle.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Inzidenzmatrix.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Kantentabelle.h
