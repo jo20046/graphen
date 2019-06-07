@@ -11,6 +11,7 @@
 class Graph {
 
 public:
+//    static Graph erstelle_vollstaengiger_graph(int groesse);
     void add_knoten(int neuer_knoten);
 
     void add_kante(int von, int nach);
@@ -26,6 +27,8 @@ public:
     bool hat_verbindung(int start, int ziel);
 
     bool kante_enthaelt_knoten(int kante, int knoten);
+
+    bool is_vollstaendig();
 
 private:
     std::vector<int> knoten_;

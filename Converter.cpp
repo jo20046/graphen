@@ -5,25 +5,31 @@
 #include "Converter.h"
 
 Inzidenzmatrix Converter::adjazenzmatrix_to_inzidenzmatrix(Adjazenzmatrix am) {
-    return Inzidenzmatrix(am.get_graph());
+    Graph g = am.get_graph();
+    return Inzidenzmatrix(&g);
 }
 
 Kantentabelle Converter::adjazenzmatrix_to_kantentabelle(Adjazenzmatrix am) {
-    return Kantentabelle(am.get_graph());
+    Graph g = am.get_graph();
+    return Kantentabelle(&g);
 }
 
 Adjazenzmatrix Converter::inzidenzmatrix_to_adjazenzmatrix(Inzidenzmatrix im) {
-    return Adjazenzmatrix(im.get_graph());
+    Graph g = im.get_graph();
+    return Adjazenzmatrix(&g);
 }
 
 Kantentabelle Converter::inzidenzmatrix_to_kantentabelle(Inzidenzmatrix im) {
-    return Kantentabelle(im.get_graph());
+    Graph g = im.get_graph();
+    return Kantentabelle(&g);
 }
 
 Adjazenzmatrix Converter::kantentabelle_to_adjazenzmatrix(Kantentabelle kt) {
-    return Adjazenzmatrix(kt.get_graph());
+    Graph g = kt.get_graph();
+    return Adjazenzmatrix(&g);
 }
 
 Inzidenzmatrix Converter::kantentabelle_to_inzidenzmatrix(Kantentabelle kt) {
-    return Inzidenzmatrix(kt.get_graph());
+    Graph g = kt.get_graph();
+    return Inzidenzmatrix(&g);
 }

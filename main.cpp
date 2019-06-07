@@ -4,6 +4,7 @@
 #include "Kantentabelle.h"
 #include "Inzidenzmatrix.h"
 #include "Converter.h"
+#include "VollstaendigerGraph.h"
 
 int main() {
 
@@ -12,26 +13,18 @@ int main() {
     graph.add_knoten(0);
     graph.add_knoten(1);
     graph.add_knoten(2);
-    graph.add_knoten(3);
-    graph.add_knoten(4);
-    graph.add_knoten(5);
-    graph.add_knoten(6);
     graph.add_kante(0, 1);
-    graph.add_kante(0, 5);
-    graph.add_kante(1, 2);
-    graph.add_kante(1, 4);
-    graph.add_kante(1, 5);
-    graph.add_kante(2, 6);
-    graph.add_kante(3, 4);
-    graph.add_kante(4, 6);
+    graph.add_kante(0, 2);
+//    graph.add_kante(1, 2);
 
-    Adjazenzmatrix adjazenzmatrix{graph};
-    Inzidenzmatrix inzidenzmatrix = Converter::adjazenzmatrix_to_inzidenzmatrix(adjazenzmatrix);
-    Kantentabelle kantentabelle = Converter::adjazenzmatrix_to_kantentabelle(adjazenzmatrix);
-    adjazenzmatrix.to_graphviz();
-    inzidenzmatrix.to_graphviz();
-    kantentabelle.to_graphviz();
+    VollstaendigerGraph vollstaendigerGraph{3};
+    bool b1 = graph.is_vollstaendig();
+    bool b2 = vollstaendigerGraph.is_vollstaendig();
+    std::cout << b1 << std::endl << b2;
 
+    Adjazenzmatrix a{&vollstaendigerGraph};
+    Inzidenzmatrix i{&vollstaendigerGraph};
+    Kantentabelle k = Converter::adjazenzmatrix_to_kantentabelle(a);
 
 
     return 0;

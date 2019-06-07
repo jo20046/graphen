@@ -59,3 +59,15 @@ std::vector<int> Graph::get_kante(int index) {
 bool Graph::kante_enthaelt_knoten(int kante, int knoten) {
     return kanten_.at(kante).at(0) == knoten || kanten_.at(kante).at(1) == knoten;
 }
+
+bool Graph::is_vollstaendig() {
+    for (int i = 0; i < knoten_.size(); i++) {
+        for (int j = i + 1; j < knoten_.size(); j++) {
+            if (!hat_verbindung(knoten_.at(i), knoten_.at(j))) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+

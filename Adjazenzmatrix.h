@@ -12,7 +12,7 @@
 class Adjazenzmatrix {
 
 public:
-    explicit Adjazenzmatrix(Graph graph);
+    explicit Adjazenzmatrix(Graph *graph);
 
     void print();
 

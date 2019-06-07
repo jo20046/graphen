@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o"
   "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Graph.cpp.o"
   "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o"
+  "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o"
   "adjazenz_inzidenz_kantentabelle.pdb"
   "adjazenz_inzidenz_kantentabelle"
 )

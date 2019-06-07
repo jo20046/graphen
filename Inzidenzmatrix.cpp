@@ -6,22 +6,22 @@
 #include <fstream>
 #include "Inzidenzmatrix.h"
 
-Inzidenzmatrix::Inzidenzmatrix(Graph graph) {
+Inzidenzmatrix::Inzidenzmatrix(Graph *graph) {
 
-    this->graph_ = graph;
+    this->graph_ = *graph;
 
-    for (int i = 0; i < graph.get_anzahl_knoten(); i++) {
+    for (int i = 0; i < graph->get_anzahl_knoten(); i++) {
         std::vector<int> neue_zeile;
-        neue_zeile.reserve(graph.get_anzahl_knoten());
-        for (int j = 0; j < graph.get_anzahl_kanten(); j++) {
+        neue_zeile.reserve(graph->get_anzahl_knoten());
+        for (int j = 0; j < graph->get_anzahl_kanten(); j++) {
             neue_zeile.push_back(0);
         }
         matrix_.push_back(neue_zeile);
     }
 
-    for (int i = 0; i < graph.get_anzahl_knoten(); i++) {
-        for (int j = 0; j < graph.get_anzahl_kanten(); j++) {
-            if (graph.kante_enthaelt_knoten(j, i)) {
+    for (int i = 0; i < graph->get_anzahl_knoten(); i++) {
+        for (int j = 0; j < graph->get_anzahl_kanten(); j++) {
+            if (graph->kante_enthaelt_knoten(j, i)) {
                 matrix_.at(i).at(j) = 1;
             }
         }
@@ -30,12 +30,12 @@ Inzidenzmatrix::Inzidenzmatrix(Graph graph) {
 }
 
 void Inzidenzmatrix::print() {
-    for (int i = 0; i < matrix_.size(); i++) {
-        for (int j = 0; j < matrix_.at(i).size(); j++) {
+    for (auto &zeile : matrix_) {
+        for (int j = 0; j < zeile.size(); j++) {
             if (j != 0) {
                 std::cout << ' ';
             }
-            std::cout << matrix_.at(i).at(j);
+            std::cout << zeile.at(j);
         }
         std::cout << std::endl;
     }

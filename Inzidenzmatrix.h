@@ -11,7 +11,7 @@
 class Inzidenzmatrix {
 
 public:
-    explicit Inzidenzmatrix(Graph graph);
+    explicit Inzidenzmatrix(Graph *graph);
 
     void print();
 

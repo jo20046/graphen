@@ -23,10 +23,15 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Kantentabelle.cpp
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.o: ../Kantentabelle.h
 
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o: ../Graph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o: ../VollstaendigerGraph.cpp
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o: ../VollstaendigerGraph.h
+
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Adjazenzmatrix.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Converter.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Inzidenzmatrix.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Kantentabelle.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../VollstaendigerGraph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../main.cpp
 
