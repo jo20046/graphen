@@ -23,6 +23,10 @@ int main() {
     Kantentabelle k{&verbunderGraph};
     k.to_graphviz();
 
+    VollstaendigerGraph vollstaendigerGraph{4};
+    Kantentabelle k2{&vollstaendigerGraph};
+    k2.to_graphviz();
+
     bool b = graph.is_verbunden();
     std::cout << b;
 
