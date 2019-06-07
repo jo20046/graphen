@@ -71,3 +71,21 @@ bool Graph::is_vollstaendig() {
     return true;
 }
 
+bool Graph::is_verbunden() {
+    for (int knoten : knoten_) {
+        bool check = false;
+        for (auto &kante : kanten_) {
+            int start = kante.at(0);
+            int ziel = kante.at(1);
+            if ((start != ziel) && (start == knoten || ziel == knoten)) {
+                check = true;
+                break;
+            }
+        }
+        if (!check) {
+            return false;
+        }
+    }
+    return true;
+}
+

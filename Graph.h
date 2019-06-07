@@ -30,6 +30,8 @@ public:
 
     bool is_vollstaendig();
 
+    bool is_verbunden();
+
 private:
     std::vector<int> knoten_;
     std::vector<std::vector<int>> kanten_;
