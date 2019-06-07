@@ -5,6 +5,7 @@
 #include "Inzidenzmatrix.h"
 #include "Converter.h"
 #include "VollstaendigerGraph.h"
+#include "VerbunderGraph.h"
 
 int main() {
 
@@ -17,6 +18,10 @@ int main() {
     graph.add_kante(0, 1);
     graph.add_kante(0, 2);
     graph.add_kante(1, 2);
+
+    VerbunderGraph verbunderGraph{5};
+    Kantentabelle k{&verbunderGraph};
+    k.to_graphviz();
 
     bool b = graph.is_verbunden();
     std::cout << b;

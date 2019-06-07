@@ -258,6 +258,33 @@ Kantentabelle.cpp.s:
 	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.s
 .PHONY : Kantentabelle.cpp.s
 
+VerbunderGraph.o: VerbunderGraph.cpp.o
+
+.PHONY : VerbunderGraph.o
+
+# target to build an object file
+VerbunderGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o
+.PHONY : VerbunderGraph.cpp.o
+
+VerbunderGraph.i: VerbunderGraph.cpp.i
+
+.PHONY : VerbunderGraph.i
+
+# target to preprocess a source file
+VerbunderGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.i
+.PHONY : VerbunderGraph.cpp.i
+
+VerbunderGraph.s: VerbunderGraph.cpp.s
+
+.PHONY : VerbunderGraph.s
+
+# target to generate assembly for a file
+VerbunderGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.s
+.PHONY : VerbunderGraph.cpp.s
+
 VollstaendigerGraph.o: VollstaendigerGraph.cpp.o
 
 .PHONY : VollstaendigerGraph.o
@@ -336,6 +363,9 @@ help:
 	@echo "... Kantentabelle.o"
 	@echo "... Kantentabelle.i"
 	@echo "... Kantentabelle.s"
+	@echo "... VerbunderGraph.o"
+	@echo "... VerbunderGraph.i"
+	@echo "... VerbunderGraph.s"
 	@echo "... VollstaendigerGraph.o"
 	@echo "... VollstaendigerGraph.i"
 	@echo "... VollstaendigerGraph.s"

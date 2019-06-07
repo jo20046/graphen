@@ -32,9 +32,11 @@ public:
 
     bool is_verbunden();
 
-private:
+protected:
     std::vector<int> knoten_;
     std::vector<std::vector<int>> kanten_;
+
+private:
 
 };
 
