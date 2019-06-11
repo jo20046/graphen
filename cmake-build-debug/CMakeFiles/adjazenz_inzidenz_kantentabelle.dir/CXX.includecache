@@ -6,41 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
-vector
--
-Graph.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
-
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.cpp
-Converter.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.h
-
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.h
-Inzidenzmatrix.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Inzidenzmatrix.h
-Adjazenzmatrix.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
-Kantentabelle.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Kantentabelle.h
-
 /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
 vector
 -
 
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Inzidenzmatrix.h
-Graph.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
+/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.cpp
+VerbundenerGraph.h
+/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.h
 
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Kantentabelle.h
-Graph.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
-
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.cpp
-VerbunderGraph.h
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.h
-
-/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.h
+/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.h
 Graph.h
 /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
 
