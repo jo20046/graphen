@@ -258,6 +258,33 @@ Kantentabelle.cpp.s:
 	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.s
 .PHONY : Kantentabelle.cpp.s
 
+Komponentengraph.o: Komponentengraph.cpp.o
+
+.PHONY : Komponentengraph.o
+
+# target to build an object file
+Komponentengraph.cpp.o:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o
+.PHONY : Komponentengraph.cpp.o
+
+Komponentengraph.i: Komponentengraph.cpp.i
+
+.PHONY : Komponentengraph.i
+
+# target to preprocess a source file
+Komponentengraph.cpp.i:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.i
+.PHONY : Komponentengraph.cpp.i
+
+Komponentengraph.s: Komponentengraph.cpp.s
+
+.PHONY : Komponentengraph.s
+
+# target to generate assembly for a file
+Komponentengraph.cpp.s:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.s
+.PHONY : Komponentengraph.cpp.s
+
 VerbundenerGraph.o: VerbundenerGraph.cpp.o
 
 .PHONY : VerbundenerGraph.o
@@ -363,6 +390,9 @@ help:
 	@echo "... Kantentabelle.o"
 	@echo "... Kantentabelle.i"
 	@echo "... Kantentabelle.s"
+	@echo "... Komponentengraph.o"
+	@echo "... Komponentengraph.i"
+	@echo "... Komponentengraph.s"
 	@echo "... VerbundenerGraph.o"
 	@echo "... VerbundenerGraph.i"
 	@echo "... VerbundenerGraph.s"

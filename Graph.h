@@ -32,13 +32,18 @@ public:
 
     bool is_verbunden();
 
-    void is_verbunden_R(int aktueller_knoten, std::vector<int> &gefundene_knoten);
+    std::vector<std::vector<int>> komponenten();
 
-    std::vector<int> get_nachbarn(int knoten);
 
 protected:
     std::vector<int> knoten_;
     std::vector<std::vector<int>> kanten_;
+
+    void get_komponente_R(int aktueller_knoten, std::vector<int> &komponente);
+
+    std::vector<int> get_nachbarn(int knoten);
+
+    void elemente_aus_vector_entfernen(const std::vector<int> &elemente, std::vector<int> &vec);
 
 private:
 

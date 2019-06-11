@@ -74,7 +74,7 @@ bool Graph::is_vollstaendig() {
 bool Graph::is_verbunden() {
     std::vector<int> gefundene_knoten;
     int aktueller_knoten = knoten_.at(0);
-    is_verbunden_R(aktueller_knoten, gefundene_knoten);
+    get_komponente_R(aktueller_knoten, gefundene_knoten);
     bool ergebnis = true;
     for (auto &knoten : knoten_) {
         if (std::find(gefundene_knoten.begin(), gefundene_knoten.end(), knoten) == gefundene_knoten.end()) {
@@ -85,14 +85,14 @@ bool Graph::is_verbunden() {
     return ergebnis;
 }
 
-void Graph::is_verbunden_R(int aktueller_knoten, std::vector<int> &gefundene_knoten) {
+void Graph::get_komponente_R(int aktueller_knoten, std::vector<int> &komponente) {
 
     // Rekursionsanker: Nur ausführen, wenn der aktuelle_knoten noch nicht unter den gefundenen_knoten enthalten ist
-    if (!(std::find(gefundene_knoten.begin(), gefundene_knoten.end(), aktueller_knoten) != gefundene_knoten.end())) {
-        gefundene_knoten.push_back(aktueller_knoten);
+    if (!(std::find(komponente.begin(), komponente.end(), aktueller_knoten) != komponente.end())) {
+        komponente.push_back(aktueller_knoten);
         std::vector<int> nachbarn = get_nachbarn(aktueller_knoten);
         for (int nachbar : nachbarn) {
-            is_verbunden_R(nachbar, gefundene_knoten); // rekursiver Aufruf
+            get_komponente_R(nachbar, komponente); // rekursiver Aufruf
         }
     }
 }
@@ -109,6 +109,30 @@ std::vector<int> Graph::get_nachbarn(int knoten) {
         }
     }
     return ergebnis;
+}
+
+std::vector<std::vector<int>> Graph::komponenten() {
+    std::vector<std::vector<int>> ergebnis;
+    std::vector<int> knoten_copy{knoten_};
+    while (!knoten_copy.empty()) {
+        std::vector<int> komponente;
+        int aktueller_knoten = knoten_copy.at(0);
+        get_komponente_R(aktueller_knoten, komponente);
+        ergebnis.push_back(komponente);
+        elemente_aus_vector_entfernen(komponente, knoten_copy);
+    }
+    return ergebnis;
+}
+
+void Graph::elemente_aus_vector_entfernen(const std::vector<int> &elemente, std::vector<int> &vec) {
+    for (int e : elemente) {
+        for (int j = 0; j < vec.size(); j++) {
+            if (e == vec.at(j)) {
+                vec.erase(vec.begin() + j);
+                break;
+            }
+        }
+    }
 }
 
 
