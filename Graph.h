@@ -34,6 +34,8 @@ public:
 
     std::vector<std::vector<int>> komponenten();
 
+    bool is_bipartit();
+
 
 protected:
     std::vector<int> knoten_;

@@ -128,4 +128,30 @@ void Graph::elemente_aus_vector_entfernen(const std::vector<int> &elemente, std:
     }
 }
 
+bool Graph::is_bipartit() {
+    if (knoten_.size() <= 1) {
+        return false;
+    }
+    std::vector<std::vector<int>> nachbarliste;
+    for (auto &knoten : knoten_) {
+        std::vector<int> nachbarn = get_nachbarn(knoten);
+        std::sort(nachbarn.begin(), nachbarn.end());
+        if (std::find(nachbarn.begin(), nachbarn.end(), knoten) != nachbarn.end()) {
+            return false;
+        }
+        if (nachbarliste.empty()) {
+            nachbarliste.push_back(nachbarn);
+        } else if (nachbarliste.size() == 1) {
+            if (nachbarliste.at(0) != nachbarn) {
+                nachbarliste.push_back(nachbarn);
+            }
+        } else if (nachbarliste.size() == 2) {
+            if ((nachbarliste.at(0) != nachbarn) && (nachbarliste.at(1) != nachbarn)) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
 
