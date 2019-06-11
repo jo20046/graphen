@@ -258,32 +258,59 @@ Kantentabelle.cpp.s:
 	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.s
 .PHONY : Kantentabelle.cpp.s
 
-VerbunderGraph.o: VerbunderGraph.cpp.o
+Komponentengraph.o: Komponentengraph.cpp.o
 
-.PHONY : VerbunderGraph.o
+.PHONY : Komponentengraph.o
 
 # target to build an object file
-VerbunderGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o
-.PHONY : VerbunderGraph.cpp.o
+Komponentengraph.cpp.o:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o
+.PHONY : Komponentengraph.cpp.o
 
-VerbunderGraph.i: VerbunderGraph.cpp.i
+Komponentengraph.i: Komponentengraph.cpp.i
 
-.PHONY : VerbunderGraph.i
+.PHONY : Komponentengraph.i
 
 # target to preprocess a source file
-VerbunderGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.i
-.PHONY : VerbunderGraph.cpp.i
+Komponentengraph.cpp.i:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.i
+.PHONY : Komponentengraph.cpp.i
 
-VerbunderGraph.s: VerbunderGraph.cpp.s
+Komponentengraph.s: Komponentengraph.cpp.s
 
-.PHONY : VerbunderGraph.s
+.PHONY : Komponentengraph.s
 
 # target to generate assembly for a file
-VerbunderGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.s
-.PHONY : VerbunderGraph.cpp.s
+Komponentengraph.cpp.s:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.s
+.PHONY : Komponentengraph.cpp.s
+
+VerbundenerGraph.o: VerbundenerGraph.cpp.o
+
+.PHONY : VerbundenerGraph.o
+
+# target to build an object file
+VerbundenerGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o
+.PHONY : VerbundenerGraph.cpp.o
+
+VerbundenerGraph.i: VerbundenerGraph.cpp.i
+
+.PHONY : VerbundenerGraph.i
+
+# target to preprocess a source file
+VerbundenerGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.i
+.PHONY : VerbundenerGraph.cpp.i
+
+VerbundenerGraph.s: VerbundenerGraph.cpp.s
+
+.PHONY : VerbundenerGraph.s
+
+# target to generate assembly for a file
+VerbundenerGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.s
+.PHONY : VerbundenerGraph.cpp.s
 
 VollstaendigerGraph.o: VollstaendigerGraph.cpp.o
 
@@ -363,9 +390,12 @@ help:
 	@echo "... Kantentabelle.o"
 	@echo "... Kantentabelle.i"
 	@echo "... Kantentabelle.s"
-	@echo "... VerbunderGraph.o"
-	@echo "... VerbunderGraph.i"
-	@echo "... VerbunderGraph.s"
+	@echo "... Komponentengraph.o"
+	@echo "... Komponentengraph.i"
+	@echo "... Komponentengraph.s"
+	@echo "... VerbundenerGraph.o"
+	@echo "... VerbundenerGraph.i"
+	@echo "... VerbundenerGraph.s"
 	@echo "... VollstaendigerGraph.o"
 	@echo "... VollstaendigerGraph.i"
 	@echo "... VollstaendigerGraph.s"

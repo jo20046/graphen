@@ -6,11 +6,11 @@
 
 VollstaendigerGraph::VollstaendigerGraph(int groesse) {
     this->groesse_ = groesse;
-    for (int i = 0; i < groesse; i++) {
+    for (int i = 0; i < groesse_; i++) {
         knoten_.push_back(i);
     }
-    for (int i = 0; i < groesse; i++) {
-        for (int j = i + 1; j < groesse; j++) {
+    for (int i = 0; i < groesse_; i++) {
+        for (int j = i + 1; j < groesse_; j++) {
             kanten_.push_back({i, j});
         }
     }
