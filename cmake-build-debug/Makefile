@@ -258,32 +258,32 @@ Kantentabelle.cpp.s:
 	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Kantentabelle.cpp.s
 .PHONY : Kantentabelle.cpp.s
 
-VerbunderGraph.o: VerbunderGraph.cpp.o
+VerbundenerGraph.o: VerbundenerGraph.cpp.o
 
-.PHONY : VerbunderGraph.o
+.PHONY : VerbundenerGraph.o
 
 # target to build an object file
-VerbunderGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.o
-.PHONY : VerbunderGraph.cpp.o
+VerbundenerGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o
+.PHONY : VerbundenerGraph.cpp.o
 
-VerbunderGraph.i: VerbunderGraph.cpp.i
+VerbundenerGraph.i: VerbundenerGraph.cpp.i
 
-.PHONY : VerbunderGraph.i
+.PHONY : VerbundenerGraph.i
 
 # target to preprocess a source file
-VerbunderGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.i
-.PHONY : VerbunderGraph.cpp.i
+VerbundenerGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.i
+.PHONY : VerbundenerGraph.cpp.i
 
-VerbunderGraph.s: VerbunderGraph.cpp.s
+VerbundenerGraph.s: VerbundenerGraph.cpp.s
 
-.PHONY : VerbunderGraph.s
+.PHONY : VerbundenerGraph.s
 
 # target to generate assembly for a file
-VerbunderGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbunderGraph.cpp.s
-.PHONY : VerbunderGraph.cpp.s
+VerbundenerGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.s
+.PHONY : VerbundenerGraph.cpp.s
 
 VollstaendigerGraph.o: VollstaendigerGraph.cpp.o
 
@@ -363,9 +363,9 @@ help:
 	@echo "... Kantentabelle.o"
 	@echo "... Kantentabelle.i"
 	@echo "... Kantentabelle.s"
-	@echo "... VerbunderGraph.o"
-	@echo "... VerbunderGraph.i"
-	@echo "... VerbunderGraph.s"
+	@echo "... VerbundenerGraph.o"
+	@echo "... VerbundenerGraph.i"
+	@echo "... VerbundenerGraph.s"
 	@echo "... VollstaendigerGraph.o"
 	@echo "... VollstaendigerGraph.i"
 	@echo "... VollstaendigerGraph.s"

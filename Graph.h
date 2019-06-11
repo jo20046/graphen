@@ -32,6 +32,10 @@ public:
 
     bool is_verbunden();
 
+    void is_verbunden_R(int aktueller_knoten, std::vector<int> &gefundene_knoten);
+
+    std::vector<int> get_nachbarn(int knoten);
+
 protected:
     std::vector<int> knoten_;
     std::vector<std::vector<int>> kanten_;

@@ -112,10 +112,10 @@
 		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Kantentabelle.h">
 			<Option target="adjazenz_inzidenz_kantentabelle"/>
 		</Unit>
-		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.cpp">
+		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.cpp">
 			<Option target="adjazenz_inzidenz_kantentabelle"/>
 		</Unit>
-		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbunderGraph.h">
+		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VerbundenerGraph.h">
 			<Option target="adjazenz_inzidenz_kantentabelle"/>
 		</Unit>
 		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VollstaendigerGraph.cpp">

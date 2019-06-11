@@ -72,20 +72,43 @@ bool Graph::is_vollstaendig() {
 }
 
 bool Graph::is_verbunden() {
-    for (int knoten : knoten_) {
-        bool check = false;
-        for (auto &kante : kanten_) {
-            int start = kante.at(0);
-            int ziel = kante.at(1);
-            if ((start != ziel) && (start == knoten || ziel == knoten)) {
-                check = true;
-                break;
-            }
-        }
-        if (!check) {
-            return false;
+    std::vector<int> gefundene_knoten;
+    int aktueller_knoten = knoten_.at(0);
+    is_verbunden_R(aktueller_knoten, gefundene_knoten);
+    bool ergebnis = true;
+    for (auto &knoten : knoten_) {
+        if (std::find(gefundene_knoten.begin(), gefundene_knoten.end(), knoten) == gefundene_knoten.end()) {
+            ergebnis = false;
+            break;
         }
     }
-    return true;
+    return ergebnis;
 }
+
+void Graph::is_verbunden_R(int aktueller_knoten, std::vector<int> &gefundene_knoten) {
+
+    // Rekursionsanker: Nur ausführen, wenn der aktuelle_knoten noch nicht unter den gefundenen_knoten enthalten ist
+    if (!(std::find(gefundene_knoten.begin(), gefundene_knoten.end(), aktueller_knoten) != gefundene_knoten.end())) {
+        gefundene_knoten.push_back(aktueller_knoten);
+        std::vector<int> nachbarn = get_nachbarn(aktueller_knoten);
+        for (int nachbar : nachbarn) {
+            is_verbunden_R(nachbar, gefundene_knoten); // rekursiver Aufruf
+        }
+    }
+}
+
+std::vector<int> Graph::get_nachbarn(int knoten) {
+    std::vector<int> ergebnis;
+    for (auto &kante : kanten_) {
+        int start = kante.at(0);
+        int ziel = kante.at(1);
+        if (start == knoten) {
+            ergebnis.push_back(ziel);
+        } else if (ziel == knoten) {
+            ergebnis.push_back(start);
+        }
+    }
+    return ergebnis;
+}
+
 
