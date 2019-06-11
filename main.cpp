@@ -30,11 +30,20 @@ int main() {
     graph.add_knoten(4);
     graph.add_kante(0, 1);
     graph.add_kante(0, 2);
+    graph.add_kante(0, 3);
     graph.add_kante(3, 4);
 
-    BipartiterGraph bipartiterGraph{3, 4};
-    Adjazenzmatrix adjazenzmatrix{&bipartiterGraph};
-    adjazenzmatrix.to_graphviz();
+//    BipartiterGraph bipartiterGraph{3, 4};
+//    Adjazenzmatrix adjazenzmatrix{&bipartiterGraph};
+//    adjazenzmatrix.to_graphviz();
+
+//    bool b = bipartiterGraph.is_bipartit();
+//    bool b2 = graph.is_bipartit();
+//    std::cout << b;
+
+    VerbundenerGraph verbundenerGraph{3};
+    bool b = graph.is_verbunden();
+    std::cout << b;
 
     return 0;
 }

@@ -75,14 +75,7 @@ bool Graph::is_verbunden() {
     std::vector<int> gefundene_knoten;
     int aktueller_knoten = knoten_.at(0);
     get_komponente_R(aktueller_knoten, gefundene_knoten);
-    bool ergebnis = true;
-    for (auto &knoten : knoten_) {
-        if (std::find(gefundene_knoten.begin(), gefundene_knoten.end(), knoten) == gefundene_knoten.end()) {
-            ergebnis = false;
-            break;
-        }
-    }
-    return ergebnis;
+    return knoten_ == gefundene_knoten;
 }
 
 void Graph::get_komponente_R(int aktueller_knoten, std::vector<int> &komponente) {

@@ -5,6 +5,10 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o: ../Adjazenz
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o: ../Adjazenzmatrix.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o: ../Graph.h
 
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.o: ../BipartiterGraph.cpp
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.o: ../BipartiterGraph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.o: ../Graph.h
+
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Adjazenzmatrix.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Converter.cpp
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o: ../Converter.h
@@ -36,6 +40,7 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o: ../Vol
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o: ../VollstaendigerGraph.h
 
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Adjazenzmatrix.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../BipartiterGraph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Converter.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o: ../Inzidenzmatrix.h

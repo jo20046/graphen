@@ -5,6 +5,10 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.cpp
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
+CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.o
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/BipartiterGraph.cpp
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/BipartiterGraph.h
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Converter.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.cpp
@@ -37,6 +41,7 @@ CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/VollstaendigerGraph.h
 CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/main.cpp.o
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h
+ /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/BipartiterGraph.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Graph.h
  /Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Inzidenzmatrix.h
