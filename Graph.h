@@ -36,6 +36,10 @@ public:
 
     bool is_bipartit();
 
+    bool is_geschlossener_eulerzug();
+
+    bool is_offener_eulerzug();
+
 
 protected:
     std::vector<int> knoten_;
@@ -46,6 +50,8 @@ protected:
     std::vector<int> get_nachbarn(int knoten);
 
     void elemente_aus_vector_entfernen(const std::vector<int> &elemente, std::vector<int> &vec);
+
+    int get_valenz(int knoten);
 
 private:
 
