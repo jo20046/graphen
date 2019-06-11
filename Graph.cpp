@@ -75,6 +75,7 @@ bool Graph::is_verbunden() {
     std::vector<int> gefundene_knoten;
     int aktueller_knoten = knoten_.at(0);
     get_komponente_R(aktueller_knoten, gefundene_knoten);
+    std::sort(gefundene_knoten.begin(), gefundene_knoten.end());
     return knoten_ == gefundene_knoten;
 }
 
@@ -152,6 +153,56 @@ bool Graph::is_bipartit() {
         }
     }
     return true;
+}
+
+int Graph::get_valenz(int knoten) {
+    int valenz = 0;
+    for (auto &kante : kanten_) {
+        int start = kante.at(0);
+        int ziel = kante.at(1);
+        if (knoten == start || knoten == ziel) {
+            if (start == ziel) {
+                valenz += 2;
+            } else {
+                valenz += 1;
+            }
+        }
+    }
+    return valenz;
+}
+
+bool Graph::is_geschlossener_eulerzug() {
+    if (!this->is_verbunden()) {
+        return false;
+    }
+    std::vector<int> valenzen;
+    for (auto &knoten : knoten_) {
+        valenzen.push_back(get_valenz(knoten));
+    }
+    int i = 0;
+    for (auto &valenz : valenzen) {
+        if (valenz % 2) {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool Graph::is_offener_eulerzug() {
+    if (!this->is_verbunden()) {
+        return false;
+    }
+    std::vector<int> valenzen;
+    for (auto &knoten : knoten_) {
+        valenzen.push_back(get_valenz(knoten));
+    }
+    int odd = 0;
+    for (auto &valenz : valenzen) {
+        if (valenz % 2) {
+            odd++;
+        }
+    }
+    return odd == 2;
 }
 
 
