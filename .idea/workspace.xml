@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -237,7 +237,7 @@
       <workItem from="1559884531018" duration="6840000" />
       <workItem from="1559895251751" duration="6979000" />
       <workItem from="1559911634696" duration="1173000" />
-      <workItem from="1560254819180" duration="2432000" />
+      <workItem from="1560254819180" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="Effizienterer Algorithmus bei to_graphviz()">
       <created>1559899318010</created>
@@ -274,11 +274,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560242669515</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Aufgabe 8.7: Überprüfen auf offene &amp; geschlossene Eulerzüge">
+      <created>1560258079165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560258079165</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30666000" />
+    <option name="totallyTimeSpent" value="30968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2914" y="-187" width="1680" height="1023" extended-state="0" />
@@ -289,13 +296,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497558" weight="0.32867885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497558" visible="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.498779" visible="true" weight="0.57787323" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.498779" weight="0.57787323" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32867885" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502442" side_tool="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -318,7 +325,8 @@
     <MESSAGE value="Newline am Ende der Graphviz-Dateien" />
     <MESSAGE value="- statische Konvertierungsfunktionen für alle Matrizen- und Tabellentypen" />
     <MESSAGE value="- Bugfix in der &quot;is_verbunden()&quot;-Funktion" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Bugfix in der &quot;is_verbunden()&quot;-Funktion" />
+    <MESSAGE value="- Aufgabe 8.7: Überprüfen auf offene &amp; geschlossene Eulerzüge" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Aufgabe 8.7: Überprüfen auf offene &amp; geschlossene Eulerzüge" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -513,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

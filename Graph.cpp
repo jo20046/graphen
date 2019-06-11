@@ -179,7 +179,6 @@ bool Graph::is_geschlossener_eulerzug() {
     for (auto &knoten : knoten_) {
         valenzen.push_back(get_valenz(knoten));
     }
-    int i = 0;
     for (auto &valenz : valenzen) {
         if (valenz % 2) {
             return false;
