@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VollstaendigerGraph.cpp.o"
   "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/VerbundenerGraph.cpp.o"
   "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Komponentengraph.cpp.o"
+  "CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.o"
   "adjazenz_inzidenz_kantentabelle.pdb"
   "adjazenz_inzidenz_kantentabelle"
 )

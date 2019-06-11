@@ -150,6 +150,33 @@ Adjazenzmatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/Adjazenzmatrix.cpp.s
 .PHONY : Adjazenzmatrix.cpp.s
 
+BipartiterGraph.o: BipartiterGraph.cpp.o
+
+.PHONY : BipartiterGraph.o
+
+# target to build an object file
+BipartiterGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.o
+.PHONY : BipartiterGraph.cpp.o
+
+BipartiterGraph.i: BipartiterGraph.cpp.i
+
+.PHONY : BipartiterGraph.i
+
+# target to preprocess a source file
+BipartiterGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.i
+.PHONY : BipartiterGraph.cpp.i
+
+BipartiterGraph.s: BipartiterGraph.cpp.s
+
+.PHONY : BipartiterGraph.s
+
+# target to generate assembly for a file
+BipartiterGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/build.make CMakeFiles/adjazenz_inzidenz_kantentabelle.dir/BipartiterGraph.cpp.s
+.PHONY : BipartiterGraph.cpp.s
+
 Converter.o: Converter.cpp.o
 
 .PHONY : Converter.o
@@ -378,6 +405,9 @@ help:
 	@echo "... Adjazenzmatrix.o"
 	@echo "... Adjazenzmatrix.i"
 	@echo "... Adjazenzmatrix.s"
+	@echo "... BipartiterGraph.o"
+	@echo "... BipartiterGraph.i"
+	@echo "... BipartiterGraph.s"
 	@echo "... Converter.o"
 	@echo "... Converter.i"
 	@echo "... Converter.s"

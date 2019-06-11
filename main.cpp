@@ -7,16 +7,17 @@
 #include "VollstaendigerGraph.h"
 #include "VerbundenerGraph.h"
 #include "Komponentengraph.h"
+#include "BipartiterGraph.h"
 
-void print_komponenten(std::vector<std::vector<int>> k) {
-    for (auto &komponente : k) {
-        for (int knoten : komponente) {
-            std::cout << knoten << ", ";
-        }
-        std::cout << std::endl;
-    }
-    std::cout << std::endl;
-}
+//void print_komponenten(std::vector<std::vector<int>> k) {
+//    for (auto &komponente : k) {
+//        for (int knoten : komponente) {
+//            std::cout << knoten << ", ";
+//        }
+//        std::cout << std::endl;
+//    }
+//    std::cout << std::endl;
+//}
 
 int main() {
 
@@ -31,15 +32,9 @@ int main() {
     graph.add_kante(0, 2);
     graph.add_kante(3, 4);
 
-    Komponentengraph komponentengraph{3, 4};
-    Adjazenzmatrix adjazenzmatrix{&komponentengraph};
+    BipartiterGraph bipartiterGraph{3, 4};
+    Adjazenzmatrix adjazenzmatrix{&bipartiterGraph};
     adjazenzmatrix.to_graphviz();
-
-    auto k1 = graph.komponenten();
-    auto k2 = komponentengraph.komponenten();
-
-    print_komponenten(k1);
-    print_komponenten(k2);
 
     return 0;
 }

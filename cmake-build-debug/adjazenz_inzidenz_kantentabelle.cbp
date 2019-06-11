@@ -88,6 +88,12 @@
 		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Adjazenzmatrix.h">
 			<Option target="adjazenz_inzidenz_kantentabelle"/>
 		</Unit>
+		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/BipartiterGraph.cpp">
+			<Option target="adjazenz_inzidenz_kantentabelle"/>
+		</Unit>
+		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/BipartiterGraph.h">
+			<Option target="adjazenz_inzidenz_kantentabelle"/>
+		</Unit>
 		<Unit filename="/Users/jen/Desktop/FH/SS 19/Info2/CLionProjects FH/Poodle/8_Graphen/adjazenz-inzidenz-kantentabelle/Converter.cpp">
 			<Option target="adjazenz_inzidenz_kantentabelle"/>
 		</Unit>
